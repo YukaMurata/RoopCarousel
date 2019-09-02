@@ -1,0 +1,27 @@
+@import './reset';
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 300/750 * 100%;
+  .carousel__wrapper {
+    .carousel__list {
+      display: flex;
+      width: 1719/750 * 100%;
+      height: 665/750 * 100vw;
+      margin-left: 95/750 * 100%;
+      position: relative;
+      li {
+        flex-basis: 191/750 * 100%;
+        height: 650/750 * 100vw;
+        .carousel__list_inner {
+          background: #eeeeee;
+          height: 100%;
+          width: 94%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
